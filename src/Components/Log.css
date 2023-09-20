@@ -8,14 +8,14 @@
     display: flex;
     flex-direction: column;
     padding: 12px;
-    height: max-content;
-    border: 1px solid black;
+    height: 500px;
     margin: 100px auto;
     position: relative;
-    border-radius: 3px;
-    background-color: rgb(254 158 13);
-    max-width: 333px;
-    font-family: "Reem Kufi", sans-serif !important;
+    border-radius: 5px;
+    box-shadow: 0 0 0.2 1px;
+    background-color: cadetblue;
+    max-width: 450px;
+    font-family: "poppins", sans-serif !important;
 }
 .form h2{
     text-align: center;
@@ -40,7 +40,7 @@ label{
     button {
         margin-top: 20px;
         padding: 10px;
-        background-color: #a05f0c;
+        background-color:blue;
         border-radius: 10px;
         border: none;
         font-weight: 600;

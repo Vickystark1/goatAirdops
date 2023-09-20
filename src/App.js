@@ -1,8 +1,8 @@
 import "./App.css";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Work from "./Components/Work";
-import Testimonial from "./Components/Testimonial";
+import Categories from "./Components/Categories";
+import Rankings from "./Components/Rankings";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";  
 
@@ -12,9 +12,9 @@ function App() {
     <div className="App"> 
     
       <Home />
+      <Categories/>
       <About />
-      <Work />
-      <Testimonial />
+      <Rankings />
       <Contact />
       <Footer /> 
       

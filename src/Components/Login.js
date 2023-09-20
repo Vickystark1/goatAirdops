@@ -23,7 +23,7 @@ const Log = ({show,setShow}) => {
          <label htmlFor="pass">Password</label>
          <input type="password" placeholder='Enter Password'/>
          <button> Submit </button>
-         <label htmlFor="" id='fg'>Forget password ?</label>
+         <label htmlFor="" id='fg'>Forget password <input type='checkbox'></input></label>
        </form>
 
     </div>

@@ -2,12 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  font-family: 'Poppins', sans-serif;
+  
 }
 img {
   max-width: 100%;
   height: auto;
 }
+
+.logo-goat{
+  color: brown;
+}
+
+.logo-nav { width: 180px;
+color: dimgrey;}
+
+.logo-goat{
+  width: 250px;
+  color: dimgrey;
+}
+
 .App {
   min-height: 100vh;
   width: 85vw;

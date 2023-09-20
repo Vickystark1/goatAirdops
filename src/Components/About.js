@@ -1,35 +1,26 @@
 import React from "react";
-import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
-import { BsFillPlayCircleFill } from "react-icons/bs";
+import AboutBackgroundImage from "../Assets/about.png";
 
 const About = () => {
   return (
     <div className="about-section-container">
-      <div className="about-background-image-container">
-        <img src={AboutBackground} alt="" />
-      </div>
       <div className="about-section-image-container">
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Burger Is An Important Part Of A Balanced Diet
+        Who we Are? Were young & wild explorers out on a journey to turn on your true vibe.
         </h1>
+        <h3 className="primary-text">
+        Goat set sail in 2014</h3>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
-        <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        During one of their many explorations, our founders <strong>Vicky Stark</strong> discovered that the dopest people of our land were in search of <strong>affordable, durable</strong> 
+and <strong>ultra fashionable</strong> audio products to grove to.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
-          </button>
+          
         </div>
       </div>
     </div>

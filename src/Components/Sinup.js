@@ -20,6 +20,8 @@ const Sin = ({popup,setPopup}) => {
          <h2> Singup </h2>
          <label htmlFor="name">Username</label>
          <input type="text" placeholder='Enter Username'/>
+         <label htmlFor="email">Email I.d</label>
+         <input type="email" placeholder='Enter your email'/>
          <label htmlFor="pass">Password</label>
          <input type="password" placeholder='Enter Password'/>
          <label htmlFor="pass">Confirm Password</label>

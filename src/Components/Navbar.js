@@ -1,7 +1,5 @@
 
 import React, { useState } from "react";
-import Logo from "../Assets/food-right.png";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -15,8 +13,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-import Log from './Log';
-import Sin from './Sin';
+import Login from './Login';
+import Sinup from './Sinup';
 
 
 const Navbar = () => {
@@ -46,18 +44,15 @@ const Navbar = () => {
     <>
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <a><h1 class='logo-goat'>Goat Airdops</h1></a>
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
+        <a href="">Categories</a>
         <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a id='lk' onClick={()=>{setShow(true)}}> Login</a>
-        <a id='lk' onClick={()=>{setPopup(true)}}>Singup</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        <a href="">Contacts</a>
+        <a className="primary-button" id='lk'  onClick={()=>{setShow(true)}} >Login</a>
+        <a className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Singup</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -83,11 +78,11 @@ const Navbar = () => {
         </Box>
       </Drawer>
     </nav>
-    <Log 
+    <Login 
      show={show}
      setShow={setShow}
      />
-   <Sin
+   <Sinup
     popup={popup}
     setPopup={setPopup}
    />
