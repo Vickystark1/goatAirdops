@@ -1,7 +1,7 @@
-import './Log.css'
+import './Login.css'
 
 
-const Log = ({show,setShow}) => {
+const Login = ({show,setShow}) => {
 
     function handleSum(e){
     e.preventDefault()
@@ -30,4 +30,4 @@ const Log = ({show,setShow}) => {
   )
 }
 
-export default Log;
+export default Login;

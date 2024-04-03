@@ -1,10 +1,9 @@
 import React from 'react'
 
-const Sin = ({popup,setPopup}) => {
+const Sinup = ({popup,setPopup}) => {
 
    
-    function handleSp(e){
-  e.preventDefault()
+    function handleSp(e){e.preventDefault()
     }
     if(!popup ) return null
 
@@ -35,4 +34,4 @@ const Sin = ({popup,setPopup}) => {
   )
 }
 
-export default Sin;
+export default Sinup;

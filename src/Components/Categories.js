@@ -22,7 +22,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id="categories">
       <div className="work-section-top">
         <p className="primary-subheading">Categories</p>
         <h1 className="primary-heading">Different Varaities</h1>

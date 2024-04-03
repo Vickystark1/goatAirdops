@@ -1,16 +1,16 @@
 import React from "react";
 import BannerImage from "../Assets/home-banner-image.jpg";
-import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" id="#">
       <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
         </div>
-        <div className="home-text-section">
+        <div className="home-text-section d-flex justify-content-center align-items-center " >
           <h1 className="primary-heading">
           Your Headphones made smart
           </h1>

@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer-wrapper">
+    <div className="footer-wrapper" id="footer">
       <div className="footer-section-one">
         <div className="footer-logo-container">
         <h1 className="logo-goat" >Goat Airdops</h1> 

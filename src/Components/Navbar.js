@@ -47,10 +47,10 @@ const Navbar = () => {
         <a><h1 class='logo-goat'>Goat Airdops</h1></a>
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">Categories</a>
-        <a href="">About</a>
-        <a href="">Contacts</a>
+        <a href="#">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contacts</a>
         <a className="primary-button" id='lk'  onClick={()=>{setShow(true)}} >Login</a>
         <a className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Singup</a>
       </div>
