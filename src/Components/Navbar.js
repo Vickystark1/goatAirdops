@@ -52,7 +52,7 @@ const Navbar = () => {
         <a href="#about">About</a>
         <a href="#contact">Contacts</a>
         <a className="primary-button" id='lk'  onClick={()=>{setShow(true)}} >Login</a>
-        <a className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Singup</a>
+        <a className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Signup</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
