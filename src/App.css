@@ -215,7 +215,9 @@ nav {
   margin-top: 10rem;
 }
 .footer-logo-container {
-  max-width: 110px;
+  display: flex;
+  max-width: 50px;
+  text-wrap: nowrap;
 }
 .footer-icons {
   margin-top: 2.5rem;

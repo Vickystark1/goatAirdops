@@ -14,7 +14,8 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import Login from './Login';
-import Sinup from './Sinup';
+import Signup from './Sinup';
+import { Link } from "@mui/material";
 
 
 const Navbar = () => {
@@ -50,14 +51,14 @@ const Navbar = () => {
         <a href="#">Home</a>
         <a href="#categories">Categories</a>
         <a href="#about">About</a>
-        <a href="#contact">Contacts</a>
+        <a href="#contact">Contact</a>
         <a className="primary-button" id='lk'  onClick={()=>{setShow(true)}} >Login</a>
         <a className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Signup</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>
-      <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
+       {<HiOutlineBars3/>&& <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
         <Box
           sx={{ width: 250 }}
           role="presentation"
@@ -65,27 +66,57 @@ const Navbar = () => {
           onKeyDown={() => setOpenMenu(false)}
         >
           <List>
-            {menuOptions.map((item) => (
-              <ListItem key={item.text} disablePadding>
-                <ListItemButton>
-                  <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText primary={item.text} />
+            
+          <ListItem  disablePadding>
+                <ListItemButton href="#" style={{textDecoration:"none",color:"inherit"}}>
+                  <ListItemText >Home</ListItemText>
                 </ListItemButton>
               </ListItem>
-            ))}
+
+              <ListItem  disablePadding>
+                <ListItemButton href="#categories" style={{textDecoration:"none",color:"inherit"}} >
+                  <ListItemText>Categories</ListItemText>
+                </ListItemButton>
+              </ListItem>
+
+
+              <ListItem  disablePadding>
+                <ListItemButton href="#about" style={{textDecoration:"none",color:"inherit"}} >
+                  <ListItemText >About</ListItemText>
+                </ListItemButton>
+              </ListItem>
+
+              <ListItem  disablePadding>
+                <ListItemButton href="#contact" style={{textDecoration:"none",color:"inherit"}} >
+                  <ListItemText >Contact</ListItemText>
+                </ListItemButton>
+              </ListItem>
+
+              <ListItem  disablePadding>
+                <ListItemButton onClick={()=>{setShow(true)}} >
+                  <ListItemText >Login</ListItemText>
+                </ListItemButton>
+              </ListItem>
+
+              <ListItem  disablePadding>
+                <ListItemButton onClick={()=>{setPopup(true)}} >
+                  <ListItemText >Signup</ListItemText>
+                </ListItemButton>
+              </ListItem>
+          
           </List>
           <Divider />
         </Box>
-      </Drawer>
+      </Drawer>}
+   
     </nav>
     <Login 
      show={show}
      setShow={setShow}
      />
-   <Sinup
+   <Signup
     popup={popup}
-    setPopup={setPopup}
-   />
+    setPopup={setPopup}/>
     </>
   );
 };

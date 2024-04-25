@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer-wrapper" id="footer">
       <div className="footer-section-one">
         <div className="footer-logo-container">
-        <h1 className="logo-goat" >Goat Airdops</h1> 
+        <h1 className="footer-icons" >Goat Airdops</h1> 
         </div>
         <div className="footer-icons">
           <BsTwitter />
