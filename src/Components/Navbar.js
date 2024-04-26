@@ -62,26 +62,26 @@ const Navbar = () => {
           <List>
             
           <ListItem  disablePadding>
-                <Link href="#" style={{textDecoration:"none",color:"inherit"}}>
+                <Link to="#" style={{textDecoration:"none",color:"inherit"}}>
                   <ListItemText >Home</ListItemText>
                 </Link>
               </ListItem>
 
               <ListItem  disablePadding>
-                <Link href="#categories" style={{textDecoration:"none",color:"inherit"}} >
+                <Link to="#categories" style={{textDecoration:"none",color:"inherit"}} >
                   <ListItemText>Categories</ListItemText>
                 </Link>
               </ListItem>
 
 
               <ListItem  disablePadding>
-                <Link href="#about" style={{textDecoration:"none",color:"inherit"}} >
+                <Link  to="#about" style={{textDecoration:"none",color:"inherit"}} >
                   <ListItemText >About</ListItemText>
                 </Link>
               </ListItem>
 
               <ListItem  disablePadding>
-                <Link href="#contact" style={{textDecoration:"none",color:"inherit"}} >
+                <Link to="#contact" style={{textDecoration:"none",color:"inherit"}} >
                   <ListItemText >Contact</ListItemText>
                 </Link>
               </ListItem>
