@@ -7,7 +7,6 @@ import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
@@ -23,30 +22,30 @@ const Navbar = () => {
   const [show,setShow]=useState(false);
     const [popup,setPopup]=useState(false);
   const [openMenu, setOpenMenu] = useState(false);
-  const menuOptions = [
-    {
-      text: "Home",
-      icon: <HomeIcon />,
-    },
-    {
-      text: "About",
-      icon: <InfoIcon />,
-    },
-    {
-      text: "Testimonials",
-      icon: <CommentRoundedIcon />,
-    },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+  // const menuOptions = [
+  //   {
+  //     text: "Home",
+  //     icon: <HomeIcon />,
+  //   },
+  //   {
+  //     text: "About",
+  //     icon: <InfoIcon />,
+  //   },
+  //   {
+  //     text: "Testimonials",
+  //     icon: <CommentRoundedIcon />,
+  //   },
+  //   {
+  //     text: "Cart",
+  //     icon: <ShoppingCartRoundedIcon />,
+  //   },
     
-  ];
+  // ];
   return (
     <>
     <nav>
       <div className="nav-logo-container">
-        <a><h1 class='logo-goat'>Goat Airdops</h1></a>
+        <a href="#"><h1 class='logo-goat'>Goat Airdops</h1></a>
       </div>
       <div className="navbar-links-container">
         <a href="#">Home</a>
