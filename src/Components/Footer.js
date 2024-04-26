@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <div className="footer-wrapper" id="footer">
       <div className="footer-section-one">
-        <div className="footer-logo-container">
+        <div className="footer-icons">
         <h1 className="footer-icons" >Goat Airdops</h1> 
         </div>
-        <div className="footer-icons">
+        <div className="footer-icons text-no-wrap">
           <BsTwitter />
           <SiLinkedin />
           <BsYoutube />

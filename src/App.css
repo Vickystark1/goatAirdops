@@ -217,7 +217,7 @@ nav {
 .footer-logo-container {
   display: flex;
   max-width: 50px;
-  text-wrap: nowrap;
+  
 }
 .footer-icons {
   margin-top: 2.5rem;
@@ -227,9 +227,11 @@ nav {
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
+.footer-section-one {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
 .footer-section-two {
   flex: 1;
   display: flex;

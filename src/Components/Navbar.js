@@ -18,6 +18,7 @@ import Signup from './Sinup';
 import { Link } from "@mui/material";
 
 
+
 const Navbar = () => {
   const [show,setShow]=useState(false);
     const [popup,setPopup]=useState(false);
@@ -68,28 +69,28 @@ const Navbar = () => {
           <List>
             
           <ListItem  disablePadding>
-                <ListItemButton href="#" style={{textDecoration:"none",color:"inherit"}}>
+                <Link href="#" style={{textDecoration:"none",color:"inherit"}}>
                   <ListItemText >Home</ListItemText>
-                </ListItemButton>
+                </Link>
               </ListItem>
 
               <ListItem  disablePadding>
-                <ListItemButton href="#categories" style={{textDecoration:"none",color:"inherit"}} >
+                <Link href="#categories" style={{textDecoration:"none",color:"inherit"}} >
                   <ListItemText>Categories</ListItemText>
-                </ListItemButton>
+                </Link>
               </ListItem>
 
 
               <ListItem  disablePadding>
-                <ListItemButton href="#about" style={{textDecoration:"none",color:"inherit"}} >
+                <Link href="#about" style={{textDecoration:"none",color:"inherit"}} >
                   <ListItemText >About</ListItemText>
-                </ListItemButton>
+                </Link>
               </ListItem>
 
               <ListItem  disablePadding>
-                <ListItemButton href="#contact" style={{textDecoration:"none",color:"inherit"}} >
+                <Link href="#contact" style={{textDecoration:"none",color:"inherit"}} >
                   <ListItemText >Contact</ListItemText>
-                </ListItemButton>
+                </Link>
               </ListItem>
 
               <ListItem  disablePadding>
