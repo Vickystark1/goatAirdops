@@ -8,15 +8,9 @@ import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-import HomeIcon from "@mui/icons-material/Home";
-import InfoIcon from "@mui/icons-material/Info";
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import Login from './Login';
 import Signup from './Sinup';
 import { Link } from "@mui/material";
-
-
 
 const Navbar = () => {
   const [show,setShow]=useState(false);
@@ -45,7 +39,7 @@ const Navbar = () => {
     <>
     <nav>
       <div className="nav-logo-container">
-        <a href="#" className="logo-og"><h1 class='logo-goat'>Goat Airdops</h1></a>
+        <h1 class='logo-goat'>Goat Airdops</h1>
       </div>
       <div className="navbar-links-container">
         <a href="#">Home</a>
