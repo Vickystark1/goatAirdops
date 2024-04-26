@@ -42,12 +42,12 @@ const Navbar = () => {
         <h1 class='logo-goat'>Goat Airdops</h1>
       </div>
       <div className="navbar-links-container">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#categories">Categories</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a href="#" className="primary-button" id='lk'  onClick={()=>{setShow(true)}} >Login</a>
-        <a href="#" className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Signup</a>
+        <button  className="primary-button me-2" id='lk'  onClick={()=>{setShow(true)}} >Login</button>
+        <button  className="primary-button" id='lk' onClick={()=>{setPopup(true)}}>Signup</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -62,7 +62,7 @@ const Navbar = () => {
           <List>
             
           <ListItem  disablePadding>
-                <Link to="#" style={{textDecoration:"none",color:"inherit"}}>
+                <Link to="#home" style={{textDecoration:"none",color:"inherit"}}>
                   <ListItemText >Home</ListItemText>
                 </Link>
               </ListItem>
