@@ -45,7 +45,7 @@ const Navbar = () => {
     <>
     <nav>
       <div className="nav-logo-container">
-        <a href="#"><h1 class='logo-goat'>Goat Airdops</h1></a>
+        <a href="#" className="logo-og"><h1 class='logo-goat'>Goat Airdops</h1></a>
       </div>
       <div className="navbar-links-container">
         <a href="#">Home</a>

@@ -10,16 +10,19 @@ img {
   height: auto;
 }
 
-.logo-goat{
-  color: brown;
-}
+
 
 .logo-nav { width: 180px;
 color: dimgrey;}
 
-.logo-goat{
+.logo-og{
+  text-decoration: none;
+}
+
+.logo-goat {
   width: 250px;
   color: dimgrey;
+  
 }
 
 .App {
@@ -231,6 +234,7 @@ nav {
   /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
+  
 }
 .footer-section-two {
   flex: 1;
